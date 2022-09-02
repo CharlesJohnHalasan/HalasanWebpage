@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar-header {
+  display: flex;
+  background-color: burlywood;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1111;
+}
+
+.brand-name {
+  flex: 40%;
+  background-color: burlywood;
+  color: black;
+  height: 50px;
+  text-align: start;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+
+.navbar-menu {
+  flex: 2%;
+}
+
+.navbar-menu ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+
+.navbar-menu li {
+  flex: auto;
+  font-size: 1.2rem;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.navbar-menu a:hover {
+  color: aliceblue;
+}
+
+#home {
+  display: flex;
+  background-color: papayawhip;
+}
+
+h1 {
+  font-size: 3.2rem;
+  padding-top: 250px;
+  padding-left: 60px;
+  padding-right: 40px;
+  text-shadow: 2px 2px 2px black;
+}
+img {
+  display: block;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 10px;
+}
+.column {
+  width: 33.33%;
+  float: left;
+  height: 100vh;
+}
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#skills {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: peachpuff;
+}
+.cover {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.box {
+  margin: 15px;
+  width: 800px;
+  height: 450px;
+  box-shadow: -1px 0 20px black;
+  text-align: center;
+}
+.cover img {
+  width: 280px;
+  height: 230px;
+  border-radius: 0;
+  position: relative;
+  top: 165px;
+}
+
+#about {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: palegoldenrod;
+}
+.cover1 {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.box1 {
+  margin: 15px;
+  width: 800px;
+  height: 450px;
+  box-shadow: -1px 0 20px black;
+
+}
+.box1 img{ 
+  margin-top:60px;
+  width: 90px;
+  position: relative;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);  
+  
+}
+
+
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 1.1rem;
+}
+
+li {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+
+.content {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
